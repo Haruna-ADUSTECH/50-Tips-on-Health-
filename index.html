@@ -192,4 +192,32 @@
             </li>
             <li class="tip-item" onclick="toggleTip(46)">
                 <h2>Tip 46: Eat More Nuts and Seeds</h2>
-                <p id="tip46" class="tip-content">Nuts
+                <p id="tip46" class="tip-content">Nuts and seeds are rich in healthy fats, fiber, and protein. They can help reduce inflammation, improve heart health, and provide a nutrient-dense snack. Incorporate a variety of nuts and seeds into your diet.</p>
+            </li>
+            <li class="tip-item" onclick="toggleTip(47)">
+                <h2>Tip 47: Stay Informed About Your Health</h2>
+                <p id="tip47" class="tip-content">Keep yourself informed about health issues, new research, and treatments that may affect you. This knowledge empowers you to make better decisions about your health and well-being.</p>
+            </li>
+            <li class="tip-item" onclick="toggleTip(48)">
+                <h2>Tip 48: Practice Regular Meditation</h2>
+                <p id="tip48" class="tip-content">Meditation can help reduce stress, improve focus, and enhance emotional well-being. Try to incorporate meditation or mindfulness practices into your daily routine.</p>
+            </li>
+            <li class="tip-item" onclick="toggleTip(49)">
+                <h2>Tip 49: Avoid Eating Out Frequently</h2>
+                <p id="tip49" class="tip-content">Eating out often, especially fast food, can lead to unhealthy eating habits. Cooking at home allows you to control ingredients and make healthier meals.</p>
+            </li>
+            <li class="tip-item" onclick="toggleTip(50)">
+                <h2>Tip 50: Set Realistic Health Goals</h2>
+                <p id="tip50" class="tip-content">Setting realistic health goals can keep you motivated and on track. Break down large goals into smaller, achievable steps, and celebrate your progress along the way.</p>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleTip(tipNumber) {
+            var tipContent = document.getElementById("tip" + tipNumber);
+            tipContent.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
